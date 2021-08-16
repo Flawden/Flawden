@@ -51,22 +51,12 @@ if($('.slider').length>0) {
         // autoplay: true,
         // infinite: false,
         dots: false,
-        arrows: true,
-        accessibility: true,
-        slidesToShow: 1, 
+        arrows: true, 
         autoPlaySpeed: 3000,
-        adaptiveHeight: true,
-        fade: true,
-        nextArrow: '<button type="button" class="slick-next"></button>',
-        prevArrow: '<button type="button" class="slick-prev"></button>',
-
-        responsive: [{
-            breakpoint: 768,
-            settings: {}
-        }],
 
     });
 }
+
 
 if($('.Reviews__slider').length>0) {
     $('.Reviews__slider').slick( {
@@ -110,6 +100,10 @@ $('.icon-menu').click(function(event) {
     $('.header__row').toggleClass('active');
     $('body').toggleClass('lock');
 
+});
+
+$( window ).resize(function() {
+  
 });
 
 function ibg(){
