@@ -1,0 +1,113 @@
+/* Слайдер */
+.slick-slider{
+	position: relative;
+
+	z-index: 4;
+
+	.slick-list {
+		overflow: hidden;
+	}
+	/* Лента слайдов */
+	.slick-track{
+		display: flex;
+		align-items: flex-start;
+	}
+
+	// .slick-dots{
+
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	align-items: center;
+
+	// 	padding-top: 100px;
+
+	// 	li { margin-right: 5px;
+
+	// 		button { 
+	// 			font-size: 0px;
+	// 			width: 11px;
+	// 			height: 11px;
+	// 			border: 1px solid #c8c8c8;
+	// 			background: transparent;
+	// 			border-radius: 50%;
+	// 		}
+
+	// 		&.slick-active {
+	// 			button{
+	// 				background: #a9afb3;
+	// 			}
+	// 		}
+
+	// 	}
+
+	// }	
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+
+/* Слайд */
+.slick-slide{
+
+	img {
+
+		width: 100%;
+
+	}
+
+}
+
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow {
+
+		height: 50px;
+		width: 50px;
+
+		position: absolute;
+		top: 50%;
+		margin-top: -60px;
+		z-index: 1000;
+
+		font-size: 0;
+
+		background: #000;
+
+		}
+
+/* Стрелка влево */
+.slick-prev{
+
+	background: url(../img/Slider/leftArrow.png);
+
+	left: 0;
+
+}
+/* Стрелка вправо */
+.slick-next{
+
+	background: url(../img/Slider/rightArrow.png);
+
+	right: 0;
+
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{
+}
