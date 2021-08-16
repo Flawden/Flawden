@@ -460,6 +460,12 @@ img {display: none;}
 
 		margin-left: 25px;
 
+		&:hover {
+
+			background: #fff;
+
+		}
+
 	}
 
 }
@@ -726,6 +732,9 @@ img {display: none;}
 		img {
 
 			margin-bottom: 50px;
+			position: relative;
+
+			
 
 		}
 
@@ -1385,6 +1394,7 @@ img {display: none;}
 		&:hover {
 
 			background: #f9faff;
+			color: #000;
 
 		}
 

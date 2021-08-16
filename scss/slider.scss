@@ -2,6 +2,8 @@
 .slick-slider{
 	position: relative;
 
+	max-width: 100%;
+
 	z-index: 4;
 
 	.slick-list {
@@ -15,31 +17,7 @@
 
 	// .slick-dots{
 
-	// 	display: flex;
-	// 	justify-content: center;
-	// 	align-items: center;
-
-	// 	padding-top: 100px;
-
-	// 	li { margin-right: 5px;
-
-	// 		button { 
-	// 			font-size: 0px;
-	// 			width: 11px;
-	// 			height: 11px;
-	// 			border: 1px solid #c8c8c8;
-	// 			background: transparent;
-	// 			border-radius: 50%;
-	// 		}
-
-	// 		&.slick-active {
-	// 			button{
-	// 				background: #a9afb3;
-	// 			}
-	// 		}
-
-	// 	}
-
+	
 	// }	
 
 }
@@ -73,16 +51,18 @@
 .slick-arrow {
 
 		height: 50px;
-		width: 50px;
+		width: 35px;
 
 		position: absolute;
-		top: 50%;
-		margin-top: -60px;
-		z-index: 1000;
+
+		top: 30%;
 
 		font-size: 0;
 
 		background: #000;
+
+		z-index: 1000;
+
 
 		}
 
@@ -91,7 +71,16 @@
 
 	background: url(../img/Slider/leftArrow.png);
 
-	left: 0;
+	border-radius: 0 15% 15% 0;
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+		left: 0px
+
+
 
 }
 /* Стрелка вправо */
@@ -99,7 +88,14 @@
 
 	background: url(../img/Slider/rightArrow.png);
 
+	border-radius: 15% 0 0 15%;
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
 	right: 0;
+
 
 }
 /* Стрелка не активная */
