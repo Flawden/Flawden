@@ -51,7 +51,7 @@ if($('.slider').length>0) {
         // autoplay: true,
         // infinite: false,
         dots: false,
-        arrows: true, 
+        arrows: false, 
         autoPlaySpeed: 3000,
 
     });
