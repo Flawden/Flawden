@@ -1,4 +1,4 @@
-### Hi there 👋
+Good day. This is a portfolio of a beginner Java developer.
 
 <!--
 **Flawden/Flawden** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
