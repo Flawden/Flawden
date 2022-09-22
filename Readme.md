@@ -1,22 +1,6 @@
 # Flawden
 ## Junior Java Developer
-
 Development of Java applications for any task. 
-My tech stack at the moment:
-
-- Java 11
-- Spring MVC
-- Spring Boot
-- Spring Data JPA
-- Spring Security
-- Hibernate ORM
-- JDBC template
-- JDBC
-- SQL: PostgreSQL
-- Thymeleaf
-- Maven
-- Gradle
-- HTML/CSS/JS (Basic level)
 
 # Projects
 
@@ -34,3 +18,19 @@ Here are examples of my work:
 - [B1nary](https://flawden.github.io/B1nary/) - Crossbrowser layout. Responsive to many screen resolutions. Involved JS for sorting.
 - [Pizza](https://flawden.github.io/Pizza/) - Primitive landing page layout for a pizzeria
 - [mamon](https://flawden.github.io/mamon/) - Not a complex adaptive site with a list of developers of a certain company.
+
+## My tech stack at the moment:
+
+- Java 11
+- Spring MVC
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- Hibernate ORM
+- JDBC template
+- JDBC
+- SQL: PostgreSQL
+- Thymeleaf
+- Maven
+- Gradle
+- HTML/CSS/JS (Basic level)
