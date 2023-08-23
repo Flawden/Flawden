@@ -1,25 +1,25 @@
 # Flawden
-## Junior Java Developer
-Development of Java applications for any task. 
+## Junior Java разработчик
+Разработка Java приложений под любые задачи. 
 
-# Projects
+# Проекты
 
-- [Divinity squad bank](https://github.com/Flawden/Divinity-Squad-Bank) - bank web application. It is under active development. The functionality allows you to create an account, get a loan (and a credit card for it), get a debit card, get basic information about the user. The project uses pure Spring MVC without Spring Boot in order to better understand the configuration of Spring applications. The project used: Spring Security, Spring Data JPA, PostgreSQL, Thymeleaf, Maven. Hibernate Validator was used for validation.
-- [Bascov Discord Bot](https://github.com/Flawden/BaskovDiscordBot) - a music discord bot with a comic name that takes advantage of Spring Boot in development. The main benefit is the ease of adding new commands thanks to the dv8tion/JDA wrapper. (API for discord bot). To create a new command, you just need to create an additional event class and inherit it from Event, after which you can set a hint for the command, the command itself and the list of bot actions. Adding a command to the list of available commands for the bot is handled by Spring. Before use, it is important to create an "application.properties" file in the resource folders similar to "application.properties.origin"
-- [SOAP backend API](https://github.com/Flawden/SOAPbackendAPI) - the simplest application that allows you to make requests for registration, obtaining user data, deleting and updating it. The purpose of the application is to demonstrate how to work with the SOAP protocol in a Spring application.
-- [Social media API](https://github.com/Flawden/SocialMediaAPI) - simple social network API. Needs improvement. Currently allows you to create, delete, edit a user and get his information. Each user has his own list of messages and posts on the wall.
-- [Exchange Rates](https://github.com/Flawden/ExchangeRates) - an application that interacts with external APIs and accumulates the result of the interaction. Depending on the change in the exchange rate of one currency to another, it displays a GIF image: joyful or sad.
+- [Divinity squad bank](https://github.com/Flawden/Divinity-Squad-Bank) - банковское веб приложение. Он находится в стадии активной разработки. Функционал позволяет создать учетную запись, получить кредит (и кредитную карту для него), получить дебетовую карту, получить основную информацию о пользователе. В проекте были использован Spring MVC без Spring Boot в целях более глубокого понимания конфигурации Spring приложений. Также в проекте использованы следующие технологии: Spring Security, Spring Data JPA, PostgreSQL, Thymeleaf, Maven, Hibernate Validator.
+- [Bascov Discord Bot](https://github.com/Flawden/BaskovDiscordBot) - музыкальный бот discord с шуточным названием, который использует преимущества Spring Boot в разработке. Основным преимуществом является простота добавления новых команд благодаря оболочке dv8tion/JDA. (API для discord-бота). Чтобы создать новую команду, вам необходимо создать класс и унаследовать его от "Event", после чего вы можете задать подсказку для команды, саму команду и список действий бота. Добавление команды в список доступных команд для бота обрабатывается Spring. Перед использованием важно создать файл "application.properties" в папках ресурсов, аналогичный "application.properties.origin".
+- [SOAP backend API](https://github.com/Flawden/SOAPbackendAPI) - простейшее приложение, позволяющее делать запросы на регистрацию, получение пользовательских данных, их удаление и обновление. Цель приложения - продемонстрировать, как работать с протоколом SOAP в приложении Spring.
+- [Social media API](https://github.com/Flawden/SocialMediaAPI) - простой API социальной сети. Нуждается в улучшении. В настоящее время позволяет создавать, удалять, редактировать пользователя и получать его информацию. У каждого пользователя есть свой собственный список сообщений и постов на стене.
+- [Exchange Rates](https://github.com/Flawden/ExchangeRates) - приложение, которое взаимодействует с внешними API-интерфейсами. В зависимости от изменения курса обмена одной валюты на другую, он отображает GIF-изображение: радостное или грустное.
 
-# Layouts
-In addition to writing code, I do not disdain the layout of sites. Layouts are taken from open sources
-Here are examples of my work:
+# Верстка
+Помимо написания кода, я не брезгую версткой сайтов. Макеты взяты из открытых источников
+Вот примеры моих работ:
 
-- [AOD](https://flawden.github.io/AOD/) - Layout adaptive to any screens of the site.
-- [B1nary](https://flawden.github.io/B1nary/) - Crossbrowser layout. Responsive to many screen resolutions. Involved JS for sorting.
-- [Pizza](https://flawden.github.io/Pizza/) - Primitive landing page layout for a pizzeria
-- [mamon](https://flawden.github.io/mamon/) - Not a complex adaptive site with a list of developers of a certain company.
+- [AOD](https://flawden.github.io/AOD/) - Макет адаптивен к любым экранам сайта.
+- [B1nary](https://flawden.github.io/B1nary/) - Кроссбраузерная верстка. Реагирует на многие разрешения экрана. Задействован JS для сортировки.
+- [Pizza](https://flawden.github.io/Pizza/) - Примитивный макет страницы для пиццерии
+- [mamon](https://flawden.github.io/mamon/) - Не сложный адаптивный сайт со списком разработчиков определенной компании.
 
-## My tech stack at the moment:
+## Мой стек технологий на данный момент:
 
 - Java 11
 - Spring MVC
